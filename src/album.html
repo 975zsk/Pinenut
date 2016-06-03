@@ -1,0 +1,376 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Pinenut松子俱乐部</title>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?5256b9d21d9d68644fca1a0db29ba277";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <link href="main.css" media="screen" rel="stylesheet" type="text/css" />
+    <!--[if lt IE 7]><script src="http://www.topit.me/js/dd_iepng.js"></script><script>DD_belatedPNG.fix(".heart, .hearted");</script><style type="text/css">body{behavior:url("/js/csshover3.htc");}</style><![endif]-->
+    <script src="http://img.topitme.com/js/jquery-1.4.4.js" type="text/javascript" charset="utf-8"></script>
+    <script src="http://img.topitme.com/js/jquery.ui-1.8.10.js" type="text/javascript" charset="utf-8"></script>
+    <script src="http://img.topitme.com/js/jquery.lazyload.js" type="text/javascript" charset="utf-8"></script>
+    <script src="http://static.topitme.com/s/js/plugin.js" type="text/javascript" charset="utf-8"></script>
+    <script src="http://www.topit.me/js/mainv19.js?v=6" type="text/javascript" charset="utf-8"></script>
+    <link type="image/x-icon" rel="shortcut icon" href="http://www.topit.me/favicon.ico" />
+</head>
+<body>
+<a id="btn_close" onclick="window.opener = null;window.open('','_self','');window.close();" href="javascript:void(0);"><span style="display:none;">X</span></a>
+<a id="btn_return" onclick="if(history.length > 1){history.back();return false;}else{location.href='/';}" href="javascript:void(0);"><span style="display: none;">◁</span></a>
+<div id="header">
+    <div id="header-inner">
+        <div id="logo">
+            <a href="/"><img src="images\logo3.png" /></a>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="welcome.html">图片</a>
+            </li>
+            <li>
+                <a href="album.html">专辑</a>
+            </li>
+            <li>
+                <a href="article.html">文章</a>
+            </li>
+            <li>
+                <a href="http://www.topit.me/users">个人</a>
+            </li>
+            <style>
+                .tipsy-inner  {
+                    background-color: #000;
+                    color: #FFF;
+                    max-width: 200px;
+                    padding: 3px 5px 2px 5px;
+                    text-align: center;
+                }
+
+            </style>
+            <script>
+                //$(function(){var a=$("#chart");a.tipsy({gravity:"sw",fallback:"New"});a.trigger("mouseover");});
+            </script>
+        </ul>
+        <div class="clear"></div>
+    </div>
+</div>
+<style>
+    #mainbox {
+        float: left;
+        width: 550px;
+    }
+
+    #canvasbox {
+        background-color: #FFFFFF;
+    }
+
+</style>
+<div id="wrapper">
+    <div id="wrapper-inner">
+        <div id="mainbox">
+            <div id="canvasbox">
+                <div id="content">
+                    <div class="pageheader"><h2>最新专辑</h2>
+                        <div class="right">
+                            <ul class="tabs">
+                                <li class="active">
+                                    <a href="http://www.topit.me/albums">最新</a>
+                                </li>
+                                <li><a href="http://www.topit.me/albums/hot">最热</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="catalog">
+                        <div class="albumlist">
+                            <a href="subAlbum.html">
+                                <img class="ui-draggable"
+                                     width="130"
+                                     height="100"
+                                     id="album_d_1828172"
+                                     style="position:
+                                     relative;"
+                                     alt="图片无法显示"
+                                     src="images\test1.jpg">
+                            </a>
+                            <div id="album_heart_1828172">
+                                <a class="heart" href="http://www.topit.me/album/1828172/do_fav"><span></span></a>
+                            </div>
+                            <div class="albumlist_blk">
+                                <h2><a href="http://www.topit.me/album/1828172">专辑1</a></h2>
+                                <p><a href="http://www.topit.me/user/1524986/albums"><span>XXX</span></a>创建<span> ( 1000张 ) </span></p>
+                            </div>
+                        </div>
+                        <div class="albumlist">
+                            <a href="http://www.topit.me/album/33771">
+                                <img class="ui-draggable" id="album_d_33771" style="position: relative;" src="http://i10.topitme.com/s085/100858237463cb0c19.jpg">
+                            </a>
+                            <div id="album_heart_33771">
+                                <a class="heart" href="http://www.topit.me/album/33771/do_fav"><span></span></a>
+                            </div>
+                            <div class="albumlist_blk">
+                                <h2><a href="http://www.topit.me/album/33771">专辑二</a></h2>
+                                <p><a href="http://www.topit.me/user/16365/albums"><span>XXX</span></a>创建  <span> ( 92张 ) </span></p>
+                            </div>
+                        </div>
+                        <div class="albumlist">
+                            <a href="http://www.topit.me/album/105239">
+                                <img class="ui-draggable" id="album_d_105239" style="position: relative;" src="http://f10.topitme.com/s/201012/03/12913100373920.jpg">
+                            </a>
+                            <div id="album_heart_105239">
+                                <a class="heart" href="http://www.topit.me/album/105239/do_fav"><span></span></a>
+                            </div>
+                            <div class="albumlist_blk">
+                                <h2><a href="http://www.topit.me/album/105239">专辑三</a></h2>
+                                <p><a href="http://www.topit.me/user/107788/albums"><span>XXX</span></a> 创建  <span> ( 26张 ) </span></p>
+                            </div>
+                        </div>
+                        <div class="albumlist">
+                            <a href="http://www.topit.me/album/913783">
+                                <img class="ui-draggable" id="album_d_913783" style="position: relative;" src="http://i10.topitme.com/s145/1014517767b4d8e289.jpg">
+                            </a>
+                            <div id="album_heart_913783">
+                                <a class="heart" href="http://www.topit.me/album/913783/do_fav"><span></span></a>
+                            </div>
+                            <div class="albumlist_blk">
+                                <h2><a href="http://www.topit.me/album/913783">专辑四</a></h2>
+                                <p><a href="http://www.topit.me/user/209232/albums"><span>XXX</span></a> 创建  <span> ( 548张 ) </span></p>
+                            </div>
+                        </div>
+                        <div class="albumlist">
+                            <a href="http://www.topit.me/album/1340943">
+                                <img class="ui-draggable" id="album_d_1340943" style="position: relative;" src="http://f5.topitme.com/5/14/06/1126605553d6a06145s.jpg">
+                            </a>
+                            <div id="album_heart_1340943">
+                                <a class="heart" href="http://www.topit.me/album/1340943/do_fav"><span></span></a>
+                            </div>
+                            <div class="albumlist_blk">
+                                <h2><a href="http://www.topit.me/album/1340943">专辑五</a></h2>
+                                <p><a href="http://www.topit.me/user/708525/albums"><span>XXX</span></a> 创建  <span> ( 58张 ) </span></p>
+                            </div>
+                        </div>
+                        <div class="albumlist">
+                            <a href="http://www.topit.me/album/154568">
+                                <img class="ui-draggable" id="album_d_154568" style="position: relative;" src="http://f10.topitme.com/s/201102/17/12979294432153.jpg">
+                            </a>
+                            <div id="album_heart_154568">
+                                <a class="heart" href="http://www.topit.me/album/154568/do_fav"><span></span></a>
+                            </div>
+                            <div class="albumlist_blk">
+                                <h2><a href="http://www.topit.me/album/154568">专辑六</a></h2>
+                                <p><a href="http://www.topit.me/user/362/albums"><span>XXX</span></a> 创建  <span> ( 38张 ) </span></p>
+                            </div>
+                        </div>
+                        <div class="albumlist">
+                            <a href="http://www.topit.me/album/1370058">
+                                <img class="ui-draggable" id="album_d_1370058" style="position: relative;" src="http://fe.topitme.com/e/43/3d/1185182756a363d43es.jpg">
+                            </a>
+                            <div id="album_heart_1370058">
+                                <a class="heart" href="http://www.topit.me/album/1370058/do_fav"><span></span></a>
+                            </div>
+                            <div class="albumlist_blk">
+                                <h2><a href="http://www.topit.me/album/1370058">专辑七</a></h2>
+                                <p><a href="http://www.topit.me/user/479634/albums"><span>XXX</span></a> 创建  <span> ( 680张 ) </span></p>
+                            </div>
+                        </div>
+                        <div class="albumlist">
+                            <a href="http://www.topit.me/album/1255360">
+                                <img class="ui-draggable" id="album_d_1255360" style="position: relative;" src="http://fc.topitme.com/c/3c/d3/1160260885207d33ccs.jpg">
+                            </a>
+                            <div id="album_heart_1255360">
+                                <a class="heart" href="http://www.topit.me/album/1255360/do_fav"><span></span></a>
+                            </div>
+                            <div class="albumlist_blk">
+                                <h2><a href="http://www.topit.me/album/1255360">专辑八</a></h2>
+                                <p><a href="http://www.topit.me/user/62747/albums"><span>XXX</span></a> 创建  <span> ( 12张 ) </span></p>
+                            </div>
+                        </div>
+                        <div class="albumlist">
+                            <a href="http://www.topit.me/album/1449947">
+                                <img class="ui-draggable" id="album_d_1449947" style="position: relative;" src="http://f4.topitme.com/4/fc/66/110057050280966fc4s.jpg">
+                            </a>
+                            <div id="album_heart_1449947">
+                                <a class="heart" href="http://www.topit.me/album/1449947/do_fav"><span></span></a>
+                            </div>
+                            <div class="albumlist_blk">
+                                <h2><a href="http://www.topit.me/album/1449947">专辑九</a></h2>
+                                <p><a href="http://www.topit.me/user/1349554/albums"><span>XXX</span></a> 创建  <span> ( 1000张 ) </span></p>
+                            </div>
+                        </div>
+                        <div class="albumlist">
+                            <a href="http://www.topit.me/album/1391973">
+                                <img class="ui-draggable" id="album_d_1391973" style="position: relative;" src="http://fb.topitme.com/b/7b/a1/1189676183269a17bbs.jpg">
+                            </a>
+                            <div id="album_heart_1391973">
+                                <a class="heart" href="http://www.topit.me/album/1391973/do_fav"><span></span></a>
+                            </div>
+                            <div class="albumlist_blk">
+                                <h2><a href="http://www.topit.me/album/1391973">专辑十</a></h2>
+                                <p><a href="http://www.topit.me/user/187965/albums"><span>XXX</span></a> 创建  <span> ( 30张 ) </span></p>
+                            </div>
+                        </div>
+                        <div class="albumlist">
+                            <a href="http://www.topit.me/album/1238672">
+                                <img class="ui-draggable" id="album_d_1238672" style="position: relative;" src="http://f9.topitme.com/9/96/dc/11575467359f7dc969s.jpg">
+                            </a>
+                            <div id="album_heart_1238672">
+                                <a class="heart" href="http://www.topit.me/album/1238672/do_fav"><span></span></a>
+                            </div>
+                            <div class="albumlist_blk">
+                                <h2><a href="http://www.topit.me/album/1238672">专辑十一</a></h2>
+                                <p><a href="http://www.topit.me/user/306570/albums"><span>XXX</span></a> 创建  <span> ( 18张 ) </span></p>
+                            </div>
+                        </div>
+                        <div class="albumlist">
+                            <a href="http://www.topit.me/album/109680">
+                                <img class="ui-draggable" id="album_d_109680" style="position: relative;" src="http://f10.topitme.com/s/201010/14/12869881135924.jpg"></a>
+                            <div id="album_heart_109680">
+                                <a class="heart" href="http://www.topit.me/album/109680/do_fav"><span></span></a>
+                            </div>
+                            <div class="albumlist_blk">
+                                <h2><a href="http://www.topit.me/album/109680">专辑十二</a></h2>
+                                <p><a href="http://www.topit.me/user/80073/albums"><span>XXX</span></a> 创建  <span> ( 63张 ) </span></p>
+                            </div>
+                        </div>
+                        <div class="albumlist">
+                            <a href="http://www.topit.me/album/66177">
+                                <img class="ui-draggable" id="album_d_66177" style="position: relative;" src="http://f10.topitme.com/s/201009/18/12847407926239.jpg">
+                            </a>
+                            <div id="album_heart_66177">
+                                <a class="heart" href="http://www.topit.me/album/66177/do_fav"><span></span></a>
+                            </div>
+                            <div class="albumlist_blk">
+                                <h2><a href="http://www.topit.me/album/66177">专辑十三</a></h2>
+                                <p><a href="http://www.topit.me/user/21394/albums"><span>XXX</span></a> 创建  <span> ( 64张 ) </span></p>
+                            </div>
+                        </div>
+                        <div class="albumlist">
+                            <a href="http://www.topit.me/album/1307197">
+                                <img class="ui-draggable" id="album_d_1307197" style="position: relative;" src="http://fd.topitme.com/d/f9/ba/1171421440a56baf9ds.jpg">
+                            </a>
+                            <div id="album_heart_1307197">
+                                <a class="heart" href="http://www.topit.me/album/1307197/do_fav"><span></span></a>
+                            </div>
+                            <div class="albumlist_blk">
+                                <h2><a href="http://www.topit.me/album/1307197">专辑十四</a></h2>
+                                <p><a href="http://www.topit.me/user/956620/albums"><span>XXX</span></a> 创建  <span> ( 28张 ) </span></p>
+                            </div>
+                        </div>
+                        <div class="albumlist">
+                            <a href="http://www.topit.me/album/1403125">
+                                <img class="ui-draggable" id="album_d_1403125" style="position: relative;" src="http://fe.topitme.com/e/8e/c8/1192015356e85c88ees.jpg">
+                            </a>
+                            <div id="album_heart_1403125">
+                                <a class="heart" href="http://www.topit.me/album/1403125/do_fav"><span></span></a>
+                            </div>
+                            <div class="albumlist_blk">
+                                <h2><a href="http://www.topit.me/album/1403125">专辑十五</a></h2>
+                                <p><a href="http://www.topit.me/user/2218018/albums"><span>XXX</span></a> 创建  <span> ( 107张 ) </span></p>
+                            </div>
+                        </div>
+                        <div class="albumlist">
+                            <a href="http://www.topit.me/album/4246">
+                                <img class="ui-draggable" id="album_d_4246" style="position: relative;" src="http://f10.topitme.com/s/201004/05/12704514302516.jpg">
+                            </a>
+                            <div id="album_heart_4246">
+                                <a class="heart" href="http://www.topit.me/album/4246/do_fav"><span></span></a>
+                            </div>
+                            <div class="albumlist_blk">
+                                <h2><a href="http://www.topit.me/album/4246">专辑十六</a></h2>
+                                <p><a href="http://www.topit.me/user/362/albums"><span>XXX</span></a> 创建  <span> ( 9张 ) </span></p>
+                            </div>
+                        </div>
+                        <div class="albumlist">
+                            <a href="http://www.topit.me/album/1331088">
+                                <img class="ui-draggable" id="album_d_1331088" style="position: relative;" src="http://f0.topitme.com/0/fd/26/117609999929c26fd0s.jpg">
+                            </a>
+                            <div id="album_heart_1331088">
+                                <a class="heart" href="http://www.topit.me/album/1331088/do_fav"><span></span></a>
+                            </div>
+                            <div class="albumlist_blk">
+                                <h2><a href="http://www.topit.me/album/1331088">专辑十七</a></h2>
+                                <p><a href="http://www.topit.me/user/618805/albums"><span>XXX</span></a> 创建  <span> ( 67张 ) </span></p>
+                            </div>
+                        </div>
+                        <div class="albumlist">
+                            <a href="http://www.topit.me/album/1264530">
+                                <img class="ui-draggable" id="album_d_1264530" style="position: relative;" src="http://fe.topitme.com/e/17/96/1161801823d2e9617es.jpg">
+                            </a>
+                            <div id="album_heart_1264530">
+                                <a class="heart" href="http://www.topit.me/album/1264530/do_fav"><span></span></a>
+                            </div>
+                            <div class="albumlist_blk"><h2><a href="http://www.topit.me/album/1264530">专辑十八</a></h2>
+                                <p><a href="http://www.topit.me/user/193301/albums"><span>XXX</span></a> 创建  <span> ( 75张 ) </span></p>
+                            </div>
+                        </div>
+                        <div class="albumlist">
+                            <a href="http://www.topit.me/album/1612">
+                                <img class="ui-draggable" id="album_d_1612" style="position: relative;" src="http://f10.topitme.com/s/201002/18/12664964901686.jpg"></a>
+                            <div id="album_heart_1612">
+                                <a class="heart" href="http://www.topit.me/album/1612/do_fav"><span></span></a>
+                            </div>
+                            <div class="albumlist_blk">
+                                <h2><a href="http://www.topit.me/album/1612">专辑十九</a></h2>
+                                <p><a href="http://www.topit.me/user/15668/albums"><span>XXX</span></a> 创建  <span> ( 27张 ) </span></p>
+                            </div>
+                        </div>
+                        <div class="albumlist">
+                            <a href="http://www.topit.me/album/1290671">
+                                <img class="ui-draggable" id="album_d_1290671" style="position: relative;" src="http://i10.topitme.com/s049/10049384960e77dab8.jpg">
+                            </a>
+                            <div id="album_heart_1290671">
+                                <a class="heart" href="http://www.topit.me/album/1290671/do_fav"><span></span></a>
+                            </div>
+                            <div class="albumlist_blk">
+                                <h2><a href="http://www.topit.me/album/1290671">专辑二十</a></h2>
+                                <p><a href="http://www.topit.me/user/713122/albums"><span>XXX</span></a> 创建  <span> ( 302张 ) </span></p>
+                            </div>
+                        </div>
+                        <div id="pagination">
+                            <div class="pages">
+                                <span class="current">1</span>
+                                <a href="http://www.topit.me/albums?p=2">2</a>
+                                <a href="http://www.topit.me/albums?p=3">3</a>
+                                <span class="dot">...</span>
+                                <a href="http://www.topit.me/albums?p=100">100</a>
+                                <a id="page-next" href="http://www.topit.me/albums?p=2">»</a>
+                                <form style="margin:0 0 0 20px;" action="http://www.topit.me/albums" method="get">
+                                    去第
+                                    <input name="p" class="page_number_input" id="page" type="text" value="1">
+                                    <input id="page_submit" type="submit" value="确认">
+                                    页
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div id="footer">
+    <div id="footer-inner">
+        <a href="http://www.topit.me/help">关于我们</a><a href="http://www.topit.me/help/guide">使用向导</a>
+    </div>
+</div>
+<script id="bdimgshare_shell"></script>
+<script>
+    var bdShare_config_imgshare = {
+        "type": "single",
+        "size": "small",
+        "pos": "top",
+        "color": "black",
+        "uid": "206430",
+        "srcSet": { "tsina": "2287515379", "tqq": "13031fb6a3b4484ba933a069b15ca7f7" }
+    };
+    document.getElementById("bdimgshare_shell").src = "http://bdimg.share.baidu.com/static/js/imgshare_shell.js?cdnversion=" + Math.ceil(new Date() / 3600000);
+</script>
+</body>
+</html>
